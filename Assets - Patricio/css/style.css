@@ -1,0 +1,66 @@
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive; */
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.txt-logo {
+    font-family: 'Lobster', cursive;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #373A3C;
+}
+
+/* .carousel-indicators {
+    top: 150px;
+} */
+  .carousel-indicators {
+    top: 10px;
+    left: 10px;
+    /* right:30px; */
+     }
+
+/* Dispositivos extra pequeños (teléfonos verticales, menos de 576 px)
+// Sin consulta de medios ya que este es el valor predeterminado en Bootstrap
+// Dispositivos pequeños (teléfonos horizontales, 576 px y más)*/
+ @media (min-width: 576px) {
+    #footerfinalfooter{
+        
+        display: none;
+        visibility: hidden;
+    }
+
+  }
+/*Dispositivos medianos (tabletas, 768 px y más)*/
+ @media (min-width: 768px) {
+    #footerfinalfooter{
+        {
+        display: none;
+    }
+
+  }
+     
+ /*LDispositivos largos (escritorio, 992px y arriba)
+ @media (min-width: 992px) {
+
+ }
+     
+// Extra large devices (largo desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
